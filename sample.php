@@ -90,9 +90,7 @@
 
         <!-- Hero Section -->
         <section id="hero" class="hero section">
-
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="hero-content" data-aos="fade-up" data-aos-delay="200">

@@ -1597,7 +1597,7 @@ section,
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50px;
-  border: 6px solid var(--background-color);
+  border: 6px solid #CC2127;
   float: left;
   margin: 0 10px 0 0;
 }
@@ -1648,6 +1648,9 @@ section,
   font-style: italic;
   margin: 15px 0 0 0;
   padding: 0;
+}
+.testimonial-item {
+  border-radius: 10px; /* You can adjust this value */
 }
 
 /*--------------------------------------------------------------
@@ -2328,3 +2331,4 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+

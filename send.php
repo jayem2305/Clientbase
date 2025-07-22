@@ -27,7 +27,7 @@ try {
     ];
 
     $mail->setFrom($_POST['email'], 'Website Mailer');
-    $mail->addAddress('dagzz23123456789@gmail.com', 'Admin');
+    $mail->addAddress('enrique@clientbase.pro', 'Admin');
     $mail->addAddress('enriquejhonmarka@gmail.com', 'Admin');
 
     $mail->isHTML(true);
