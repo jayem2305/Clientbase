@@ -31,7 +31,7 @@ try {
     $mail->addAddress('enriquejhonmarka@gmail.com', 'Admin');
 
     $mail->isHTML(true);
-    $mail->Subject = 'New Waitlist Signup';
+    $mail->Subject = 'New Inquiry Signup';
     $mail->AddEmbeddedImage('assets/Logos/JPEG/fullfix.jpg', 'bannerimg');
 
     $mail->Body = '
@@ -39,12 +39,14 @@ try {
         <div style="text-align: center; margin-bottom: 30px;">
             <img src="cid:bannerimg" alt="Banner" style="max-width: 100%; height: auto;">
         </div>
-        <h2 style="color: #004080;">New Waitlist Registration</h2>
+        <h2 style="color: #004080;">New Inquiry Registration</h2>
         <p>Dear Admin,</p>
         <p>A new user has joined the waitlist. Here are the details:</p>
         <ul style="line-height: 1.6;">
-            <li><strong>Name:</strong> ' . htmlspecialchars($_POST['firstname'] . ' ' . $_POST['lastname']) . '</li>
+            <li><strong>Name:</strong> ' . htmlspecialchars($_POST['fullname']) . '</li>
             <li><strong>Email:</strong> ' . htmlspecialchars($_POST['email']) . '</li>
+            <li><strong>Company Size:</strong> ' . htmlspecialchars($_POST['company']) . '</li>
+            <li><strong>Inquiry:</strong> ' . htmlspecialchars($_POST['inquiry']) . '</li>
         </ul>
         <p>Please take the necessary action or contact them if needed.</p>
         <p style="margin-top: 30px;">Regards,<br><strong>ClientBook</strong></p>

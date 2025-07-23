@@ -1,0 +1,77 @@
+    .logo img {
+        max-height: 50px;
+        margin-right: 8px;
+    }
+
+
+    @media (min-width: 992px) {
+        .navbar-brand-centered {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+ /* Custom CSS for mobile behavior */
+    @media (max-width: 767.98px) {
+        .double-image {
+            display: none;
+        }
+
+        .single-image {
+            display: block !important;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .double-image {
+            display: block !important;
+        }
+
+        .single-image {
+            display: none !important;
+        }
+    }
+     /* Custom responsiveness */
+ @media (max-width: 767.98px) {
+    .multi-image {
+      display: none !important;
+    }
+
+    .mobile-single {
+      display: flex !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .multi-image {
+      display: flex !important;
+    }
+
+    .mobile-single {
+      display: none !important;
+    }
+  }
+
+     /* Optional fine-tuning if needed */
+    @media (max-width: 576px) {
+        .hero h1 {
+            font-size: 2.2rem; /* smaller heading for mobile */
+        }
+
+        .hero h6 {
+            width: 90% !important;
+            font-size: 0.95rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .hero h1 {
+            width: 90% !important;
+        }
+
+        .hero h6 {
+            width: 80% !important;
+        }
+    }
+
+
