@@ -40,7 +40,6 @@
         text-align: justify !important;
       }
 
-
       .textstart {
         text-align: start !important;
       }
@@ -384,31 +383,31 @@
                 <div class="collapse" id="cardSection">
                   <div class="container py-5 d-flex justify-content-center">
                     <div class="row align-items-center w-100" id="responsive-row">
-
-                      <div class="row align-items-center reverse-on-mobile">
-                        <!-- Image Column -->
-                        <div class="col-md-12 col-lg-6 d-flex justify-content-center mb-4 mb-lg-0 image-col">
+                      <div class="row align-items-center">
+                        <!-- Image Column: Second on mobile, first on desktop -->
+                        <div class="col-md-12 col-lg-6 d-flex justify-content-center mb-4 mb-lg-0 order-2 order-lg-1">
                           <img src="assets/img/gray.png" alt="Banner Preview" class="img-fluid rounded-5 shadow"
                             style="width: 100%; max-width: 1000px; object-fit: cover;">
                         </div>
 
-                        <!-- Text Column -->
-                        <div class="col-md-12 col-lg-6 ps-lg-4 textstart text-lg-start text-col">
-                          <h2 class="fw-bold mb-3">You’re in control.</h2>
+                        <!-- Text Column: First on mobile, second on desktop -->
+                        <div class="col-md-12 col-lg-6 ps-lg-4  text-lg-start order-1 order-lg-2">
+                          <h2 class="fw-bold mb-3 textstart">You’re in control.</h2>
                           <p class="text-dark text-justify-mobile"
-                            style="font-size: 14px;line-height: 2;  max-width: 300px">
+                            style="font-size: 14px; line-height: 2; max-width: 500px;">
                             Eliminates app-switching chaos, reduces time spent searching for information, and
                             gives you complete control over all client interactions from one place.
                           </p>
                         </div>
                       </div>
 
+
                       <div class="col-lg-12 multi-image pt-5 flex-wrap">
                         <div class="row align-items-center w-100 pt-5">
                           <!-- Text Section -->
                           <div class="col-lg-5 ps-lg-4 mt-4 mt-lg-0 text-end text-center text-lg-end">
                             <h2 class="fw-bold mb-3">Know Your Worth.</h2>
-                            <p class="text-dark" style="font-size: 14px;line-height: 2;  max-width: 300px">
+                            <p class="text-dark" style="font-size: 14px;line-height: 2;  max-width: 500px">
                               Transforms uncertainty about business health into confident decision-making,
                               enables fair performance reviews based on data, and reveals hidden profit
                               opportunities.
@@ -434,7 +433,7 @@
                         <div class="text-center textstart" style="max-width: 500px;">
                           <h2 class="fw-bold mb-3">Know Your Worth.</h2>
                           <p class="text-dark text-justify-mobile"
-                            style="font-size: 14px;line-height: 2;  max-width: 300px">
+                            style="font-size: 14px;line-height: 2;  max-width: 500px">
                             Transforms uncertainty about business health into confident decision-making, enables
                             fair performance reviews based on data, and reveals hidden profit opportunities.
                           </p>
@@ -447,9 +446,19 @@
                         <div class="row align-items-center w-100 px-3 px-md-4 px-lg-0"
                           style="max-width: 1140px; margin: 0 auto;">
 
-                          <!-- Image Column -->
+                          <!-- Text Column (First on mobile, second on desktop) -->
+                          <div class="col-lg-6 ps-lg-4 mt-4 mt-lg-0 text-center text-lg-start order-1 order-lg-2">
+                            <h2 class="fw-bold mb-3 textstart">Everything on <br>the Map.</h2>
+                            <p class="text-dark text-justify-mobile mx-auto mx-lg-0"
+                              style="font-size: 14px; line-height: 2; max-width: 500px;">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi mauris,
+                              iaculis sit amet risus et, tincidunt varius felis.
+                            </p>
+                          </div>
+
+                          <!-- Image Column (Second on mobile, first on desktop) -->
                           <div
-                            class="col-lg-6 d-flex justify-content-center position-relative mb-4 mb-lg-0 order-1 order-lg-1">
+                            class="col-lg-6 d-flex justify-content-center position-relative mb-4 mb-lg-0 order-2 order-lg-1">
                             <!-- Desktop View: Layered Images -->
                             <div class="d-none d-lg-block position-relative w-100">
                               <img src="assets/img/gray.png" alt="Banner Preview"
@@ -467,18 +476,9 @@
                             </div>
                           </div>
 
-                          <!-- Text Column -->
-                          <div class="col-lg-6 ps-lg-4 mt-4 mt-lg-0 text-center text-lg-start order-2 order-lg-2">
-                            <h2 class="fw-bold mb-3">Everything on <br>the Map.</h2>
-                            <p class="text-dark text-justify-mobile mx-auto mx-lg-0"
-                              style="font-size: 14px; line-height: 2; max-width: 500px;">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi mauris,
-                              iaculis sit amet risus et, tincidunt varius felis.
-                            </p>
-                          </div>
-
                         </div>
                       </div>
+
 
 
                       <div class="col-12 py-5">
@@ -488,7 +488,7 @@
                                     text-lg-end">
                             <h2 class="fw-bold mb-3">Effortless Growth.</h2>
                             <p class="text-dark text-justify-mobile"
-                              style="font-size: 14px;line-height: 2;  max-width: 300px">
+                              style="font-size: 14px;line-height: 2;  max-width: 500px">
                               Transforms uncertainty about business health into confident decision-making,
                               enables
                               fair performance reviews based on data, and reveals hidden profit opportunities.
@@ -787,17 +787,17 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-5 p-2">
+                  <div class="col-lg-5 col-md-12 col-sx-12 p-2">
                     <div class="card p-2 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
                       <div class="card-body">
                         <div class="row d-flex flex-column flex-lg-row align-items-center">
                           <!-- Icon: top on mobile, right on desktop -->
                           <div
-                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-2 px-3 mb-3 mb-lg-0">
+                            class="col-lg-3 col-md-12 col-sx-12 d-flex justify-content-center align-items-center order-1 order-lg-2 px-3 mb-3 mb-lg-0">
                             <i class="bi bi-patch-check" style="font-size: 5rem; color:#891014;"></i>
                           </div>
                           <!-- Text: bottom on mobile, left on desktop -->
-                          <div class="col-lg-9 order-2 order-lg-1 px-3 text-center text-lg-start">
+                          <div class="col-lg-9 col-md-12 col-sx-12 order-2 order-lg-1 px-3 text-center text-lg-start">
                             <h5 class="fw-semibold textstart">E-signing feature</h5>
                             <p class="fw-light fs-6 text-justify-mobile" style="font-family: 'Poppins';">
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
@@ -810,14 +810,14 @@
                     </div>
                   </div>
 
-                  <div class="col-lg-7 p-2">
+                  <div class="col-lg-7 col-md-12 col-sx-12 p-2">
                     <div class="card p-2 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
                       <div class="card-body">
                         <div class="row">
-                          <div class="col-lg-5 d-flex justify-content-center align-items-center">
+                          <div class="col-lg-5 col-md-12 col-sx-12 d-flex justify-content-center align-items-center">
                             <i class="bi bi-recycle" style="font-size: 6rem; color:#891014;"></i>
                           </div>
-                          <div class="col-lg-7 p-2 text-end">
+                          <div class="col-lg-7 col-md-12 col-sx-12 p-2 text-end">
                             <h5 class="fw-semibold textstart">
                               Proposal Generator</h5>
                             <p class="fw-light fs-6 text-justify-mobile" style=" font-family: 'poppins';">
