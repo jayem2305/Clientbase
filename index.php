@@ -136,7 +136,7 @@
   <div class="col-lg-12 text-center py-5 pt-5 mt-5" style="padding-top: 120;">
     <div style="max-width: 900px; margin: 0 auto; padding-left: 15px; padding-right: 15px; margin-top: 50px;">
       <h1 class="fw-bold text-center display-3"
-        style=" font-family: 'Lexend', sans-serif; font-weight: 600;line-height: 110%;color: #0E171F;">
+        style=" font-family: 'Lexend', sans-serif;line-height: 110%;color: #0E171F;">
         Transform Your<br> Entity Management Firm.
       </h1>
 
@@ -176,7 +176,8 @@
           This Friday, July 25th <span class="mx-2">|</span> 11:00 AM
         </h6>
       </div>
-      <a href="#contact_us" class="btn rounded-pill px-4 mb-2 fw-medium" style="background-color: #CC2127; color:#fff;">
+      <a href="https://shorturl.at/VVYDz" class="btn rounded-pill px-4 mb-2 fw-medium"
+        style="background-color: #CC2127; color:#fff;">
         Join the webinar
       </a>
       <p class="text-dark mt-1" style="font-family: 'poppins' ;color: #0E171F;">Secure Your Spot – Free Registration!
@@ -189,7 +190,7 @@
     <div class="row justify-content-center py-5">
       <!-- Main Text Block -->
       <div class="col-12 col-lg-10  mt-5 mb-4 text-center text-lg-start">
-        <h2 class="fw-semibold display-6 text-center text-lg-start" style="line-height: 120%;">
+        <h2 class="fw-bold display-6 text-center text-lg-start" style="line-height: 120%;">
           <i class="bi bi-lightbulb" style="color: #891014;"></i><br>
           From chaos to clarity.<br>
           From reactive to strategic. <br>
@@ -264,108 +265,105 @@
                     environments for
                     regulated industries</p>
                 </div>-->
-                <div class="row">
-                  <div class="col-lg-5 p-2">
-                    <div class="card p-2 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                <div class="row gy-4 gx-4">
+                  <!-- Card 1 -->
+                  <div class="col-lg-5">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
                       <div class="card-body">
-                        <div class="row d-flex flex-column flex-lg-row align-items-center">
-                          <!-- Icon first on mobile, last on large screens -->
-                          <div
-                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-2 px-3 mb-3 mb-lg-0">
-                            <i class="bi bi-patch-check" style="font-size: 5rem; color:#891014;"></i>
-                          </div>
-                          <!-- Text second on mobile, first on large screens -->
-                          <div class="col-lg-9 order-2 order-lg-1 px-3 text-center text-lg-start pb-4">
-                            <h5 class="fw-semibold textstart">Specialized Solutions</h5>
-                            <p class="fw-light fs-6  text-justify-mobile" style="font-family: 'Poppins';">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                              ut labore et dolore magna aliqua.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-7 p-2">
-                    <div class="card p-3 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-lg-5 d-flex justify-content-center align-items-center">
-                            <i class="bi bi-recycle" style="font-size: 6rem; color:#891014;"></i>
-                          </div>
-                          <div class="col-lg-7 p-2 text-end">
-                            <h5 class="fw-semibold textstart">
-                              Complete IT Environment Assessment</h5>
-                            <p class="fw-light fs-6  text-justify-mobile" style=" font-family: 'poppins' ;">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                              ut labore et dolore magna aliqua. </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-12 p-2">
-                    <div class="card p-3 p-md-4 p-lg-5 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
-                      <div class="card-body">
-                        <div class="row d-flex flex-column flex-lg-row align-items-center">
-
-                          <!-- Icon: first on mobile, last on desktop -->
+                        <div class="row flex-column flex-lg-row align-items-center">
                           <div
                             class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-2 mb-3 mb-lg-0">
-                            <i class="bi bi-journal-check" style="font-size: 6rem; color:#891014;"></i>
+                            <i class="bi bi-patch-check" style="font-size: 4rem; color:#891014;"></i>
                           </div>
-
-                          <!-- Text: second on mobile, first on desktop -->
                           <div class="col-lg-9 order-2 order-lg-1 text-center text-lg-start">
-                            <h5 class="fw-semibold textstart">PDPA Compliance Framework Implementation</h5>
-                            <p class="fw-light fs-6 text-justify-mobile" style="font-family: 'Poppins';">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi mauris, amet risus et,
-                              tincidunt varius felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi
-                              mauris, amet risus et, tincidunt varius felis.
-                            </p>
+                            <h5 class="fw-semibold">Specialized Solutions</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'poppins' ;">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                           </div>
-
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-lg-7 p-2">
-                    <div class="card p-3 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                  <!-- Card 2 -->
+                  <div class="col-lg-7">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
                       <div class="card-body">
-                        <div class="row d-flex flex-column flex-lg-row align-items-center">
-                          <!-- Icon section: first on mobile, second on large screens -->
-                          <div
-                            class="col-lg-4 d-flex justify-content-center align-items-center order-1 order-lg-2 pt-3 px-1">
-                            <i class="bi bi-globe-americas" style="font-size: 6rem; color: #891014;"></i>
+                        <div class="row flex-column flex-lg-row align-items-center">
+                          <div class="col-lg-5 d-flex justify-content-center align-items-center mb-3 mb-lg-0">
+                            <i class="bi bi-recycle" style="font-size: 4rem; color:#891014;"></i>
                           </div>
-                          <!-- Text section: second on mobile, first on large screens -->
-                          <div class="col-lg-8 order-2 order-lg-1 px-3 text-center text-lg-start">
-                            <h5 class="fw-semibold textstart">Purpose-built Environments for Regulated Industries</h5>
-                            <p class="fw-light fs-6  text-justify-mobile" style="font-family: 'Poppins';">
+                          <div class="col-lg-7 text-center text-lg-end">
+                            <h5 class="fw-semibold">Complete IT Environment Assessment</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'poppins' ;">Lorem ipsum dolor
+                              sit amet, consectetur adipiscing elit. Sed do
+                              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Card 3 (Full Width) -->
+                  <div class="col-lg-12">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                      <div class="card-body">
+                        <div class="row flex-column flex-lg-row align-items-center">
+                          <div
+                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-2 mb-3 mb-lg-0">
+                            <i class="bi bi-journal-check" style="font-size: 4rem; color:#891014;"></i>
+                          </div>
+                          <div class="col-lg-9 order-2 order-lg-1 text-center text-lg-start">
+                            <h5 class="fw-semibold">PDPA Compliance Framework Implementation</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'poppins' ;">Lorem ipsum dolor
+                              sit amet, consectetur adipiscing elit. Aenean mi
+                              mauris, amet risus et, tincidunt varius felis. Lorem ipsum dolor sit amet, consectetur
+                              adipiscing elit.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Card 4 -->
+                  <div class="col-lg-7">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                      <div class="card-body">
+                        <div class="row flex-column flex-lg-row align-items-center">
+                          <div
+                            class="col-lg-4 d-flex justify-content-center align-items-center order-1 order-lg-2 mb-3 mb-lg-0">
+                            <i class="bi bi-globe-americas" style="font-size: 4rem; color: #891014;"></i>
+                          </div>
+                          <div class="col-lg-8 order-2 order-lg-1 text-center text-lg-start">
+                            <h5 class="fw-semibold">Purpose-built Environments for Regulated Industries</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'poppins' ;">Lorem ipsum dolor
+                              sit amet, consectetur adipiscing elit. Sed do
+                              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 5 -->
+                  <div class="col-lg-5">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                      <div class="card-body">
+                        <div class="row flex-column flex-lg-row align-items-center">
+
+                          <!-- Icon: first on mobile, left on desktop -->
+                          <div
+                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-1 mb-3 mb-lg-0">
+                            <i class="bi bi-tools" style="font-size: 4rem; color:#891014;"></i>
+                          </div>
+
+                          <!-- Text: second on mobile, right on desktop -->
+                          <div class="col-lg-9 order-2 order-lg-2 text-center text-lg-end">
+                            <h5 class="fw-semibold">Compliance Maintenance</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'Poppins';">
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
                               ut labore et dolore magna aliqua.
                             </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-5 p-2">
-                    <div class="card p-3 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-lg-3 d-flex justify-content-center align-items-center pt-3 pb-3"
-                            style="height: 100%;">
-                            <i class="bi bi-tools" style=" font-size: 5rem; color:#891014;"></i>
-                          </div>
-                          <div class="col-lg-9 p-2 text-end">
-                            <h5 class="fw-semibold textstart">
-                              Compliance
-                              Maintenance</h5>
-                            <p class="fw-light fs-6 text-justify-mobile" style=" font-family: 'poppins' ;">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                              ut labore et dolore magna aliqua. </p>
                           </div>
                         </div>
                       </div>
@@ -382,159 +380,10 @@
                 <!-- Collapsible Cards Section -->
                 <div class="collapse" id="cardSection">
                   <div class="container py-5 d-flex justify-content-center">
-                    <div class="row align-items-center w-100" id="responsive-row">
-                      <div class="row align-items-center">
-                        <!-- Image Column: Second on mobile, first on desktop -->
-                        <div class="col-md-12 col-lg-6 d-flex justify-content-center mb-4 mb-lg-0 order-2 order-lg-1">
-                          <img src="assets/img/gray.png" alt="Banner Preview" class="img-fluid rounded-5 shadow"
-                            style="width: 100%; max-width: 1000px; object-fit: cover;">
-                        </div>
-
-                        <!-- Text Column: First on mobile, second on desktop -->
-                        <div class="col-md-12 col-lg-6 ps-lg-4  text-lg-start order-1 order-lg-2">
-                          <h2 class="fw-bold mb-3 textstart">You’re in control.</h2>
-                          <p class="text-dark text-justify-mobile"
-                            style="font-size: 14px; line-height: 2; max-width: 500px;">
-                            Eliminates app-switching chaos, reduces time spent searching for information, and
-                            gives you complete control over all client interactions from one place.
-                          </p>
-                        </div>
-                      </div>
-
-
-                      <div class="col-lg-12 multi-image pt-5 flex-wrap">
-                        <div class="row align-items-center w-100 pt-5">
-                          <!-- Text Section -->
-                          <div class="col-lg-5 ps-lg-4 mt-4 mt-lg-0 text-end text-center text-lg-end">
-                            <h2 class="fw-bold mb-3">Know Your Worth.</h2>
-                            <p class="text-dark" style="font-size: 14px;line-height: 2;  max-width: 500px">
-                              Transforms uncertainty about business health into confident decision-making,
-                              enables fair performance reviews based on data, and reveals hidden profit
-                              opportunities.
-                            </p>
-                          </div>
-                          <div class="col-12 d-block d-lg-none pb-4">
-                            <img src="assets/img/gray.png" class="img-fluid rounded-5 shadow" style="width: 100%;">
-                          </div>
-
-                          <div class="col-7 d-none d-lg-block pb-4">
-                            <img src="assets/img/gray.png" class="img-fluid rounded-5 shadow" style="width: 100%;">
-                          </div>
-                          <div class="col-md-6 d-none d-lg-block">
-                            <img src="assets/img/gray.png" class="img-fluid rounded-5 shadow" style="width: 100%;">
-                          </div>
-                          <div class="col-md-6 d-none d-lg-block">
-                            <img src="assets/img/gray.png" class="img-fluid rounded-5 shadow" style="width: 100%;">
-                          </div>
-                        </div>
-                      </div>
-                      <!--  Mobile View Only -->
-                      <div class="col-12 d-flex justify-content-center mobile-single d-none pt-5 px-3">
-                        <div class="text-center textstart" style="max-width: 500px;">
-                          <h2 class="fw-bold mb-3">Know Your Worth.</h2>
-                          <p class="text-dark text-justify-mobile"
-                            style="font-size: 14px;line-height: 2;  max-width: 500px">
-                            Transforms uncertainty about business health into confident decision-making, enables
-                            fair performance reviews based on data, and reveals hidden profit opportunities.
-                          </p>
-                          <img src="assets/img/gray.png" alt="Combined Preview" class="img-fluid rounded-5 shadow"
-                            style="width: 100%;">
-                        </div>
-                      </div>
-
-                      <div class="col-12 pt-4 pt-md-5 pb-4 pb-md-5" style="min-height: 500px;">
-                        <div class="row align-items-center w-100 px-3 px-md-4 px-lg-0"
-                          style="max-width: 1140px; margin: 0 auto;">
-
-                          <!-- Text Column (First on mobile, second on desktop) -->
-                          <div class="col-lg-6 ps-lg-4 mt-4 mt-lg-0 text-center text-lg-start order-1 order-lg-2">
-                            <h2 class="fw-bold mb-3 textstart">Everything on <br>the Map.</h2>
-                            <p class="text-dark text-justify-mobile mx-auto mx-lg-0"
-                              style="font-size: 14px; line-height: 2; max-width: 500px;">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi mauris,
-                              iaculis sit amet risus et, tincidunt varius felis.
-                            </p>
-                          </div>
-
-                          <!-- Image Column (Second on mobile, first on desktop) -->
-                          <div
-                            class="col-lg-6 d-flex justify-content-center position-relative mb-4 mb-lg-0 order-2 order-lg-1">
-                            <!-- Desktop View: Layered Images -->
-                            <div class="d-none d-lg-block position-relative w-100">
-                              <img src="assets/img/gray.png" alt="Banner Preview"
-                                class="img-fluid rounded-5 shadow position-relative"
-                                style="width: 100%; max-width: 800px; z-index: 1;">
-                              <img src="assets/img/gray.png" alt="Banner Preview"
-                                class="img-fluid rounded-5 shadow position-absolute"
-                                style="width: 100%; max-width: 800px; top: 200px; left: 100px; z-index: 2;">
-                            </div>
-
-                            <!-- Tablet and Mobile View -->
-                            <div class="d-block d-lg-none w-100">
-                              <img src="assets/img/gray.png" alt="Banner Preview"
-                                class="img-fluid rounded-5 shadow mx-auto" style="width: 100%; max-width: 500px;">
-                            </div>
-                          </div>
-
-                        </div>
-                      </div>
-
-
-
-                      <div class="col-12 py-5">
-                        <div class="row align-items-center w-100 pt-5" style="max-width: 1140px; margin: 0 auto;">
-                          <!-- Left: Text -->
-                          <div class="col-lg-5 ps-lg-4 py-5 textstart mt-4 mt-lg-0 text-end text-center
-                                    text-lg-end">
-                            <h2 class="fw-bold mb-3">Effortless Growth.</h2>
-                            <p class="text-dark text-justify-mobile"
-                              style="font-size: 14px;line-height: 2;  max-width: 500px">
-                              Transforms uncertainty about business health into confident decision-making,
-                              enables
-                              fair performance reviews based on data, and reveals hidden profit opportunities.
-                            </p>
-                          </div>
-                          <div class="col-lg-6 d-flex justify-content-center">
-                            <img src="assets/img/gray.png" alt="Banner Preview" class="img-fluid rounded-5 shadow"
-                              style="width: 100%; max-width: 800px; object-fit: cover;">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-12 py-5">
-                        <div class="row align-items-center w-100 pt-5" style="max-width: 1140px; margin: 0 auto;">
-
-                          <!-- Text -->
-                          <div class="col-lg-12 ps-lg-4 mt-4 mt-lg-0 text-end text-center text-lg-center">
-                            <h2 class="fw-bold mb-3 textstart ">Sleep Easy.</h2>
-                            <p class="text-dark text-justify-mobile" style="font-size: 14px;line-height: 2;">
-                              Transforms uncertainty about business health into confident decision-making,
-                              enables fair performance reviews based on data, and reveals hidden profit
-                              opportunities.
-                            </p>
-                          </div>
-
-                          <!-- Single Image for Small Devices -->
-                          <div class="col-12 d-block d-lg-none d-flex justify-content-center mt-4">
-                            <img src="assets/img/gray.png" alt="Banner Preview" class="img-fluid rounded-5 shadow"
-                              style="width: 100%; max-width: 800px; object-fit: cover;">
-                          </div>
-
-                          <!-- Two Images Side-by-Side for Large Devices -->
-                          <div class="col-lg-6 d-none d-lg-flex justify-content-center">
-                            <img src="assets/img/gray.png" alt="Banner Preview" class="img-fluid rounded-5 shadow"
-                              style="width: 100%; max-width: 800px; object-fit: cover;">
-                          </div>
-                          <div class="col-lg-6 d-none d-lg-flex justify-content-center">
-                            <img src="assets/img/gray.png" alt="Banner Preview" class="img-fluid rounded-5 shadow"
-                              style="width: 100%; max-width: 800px; object-fit: cover;">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <!--  contents -->
                   </div>
                 </div>
               </div>
-            </div>
           </li>
           <li class="mb-3">
             <h3 class="fw-bold py-3 " style="color: #891014;">
@@ -575,254 +424,236 @@
                   <p><i class="bi bi-eye text-danger fw-bold fs-5 me-2"></i> Complete project and
                     client visibility</p>
                 </div>-->
-                <div class="row">
-                  <div class="col-lg-5 p-2">
-                    <div class="card p-2 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                <div class="row gy-4 gx-4">
+                  <!-- Card 6 -->
+                  <div class="col-lg-5">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
                       <div class="card-body">
-                        <div class="row d-flex flex-column flex-lg-row align-items-center">
-                          <!-- Icon first on mobile, last on large screens -->
+                        <div class="row flex-column flex-lg-row align-items-center">
                           <div
-                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-2 px-3 mb-3 mb-lg-0">
-                            <i class="bi bi-patch-check" style="font-size: 5rem; color:#891014;"></i>
+                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-2 mb-3 mb-lg-0">
+                            <i class="bi bi-patch-check" style="font-size: 4rem; color:#891014;"></i>
                           </div>
-                          <!-- Text second on mobile, first on large screens -->
-                          <div class="col-lg-9 order-2 order-lg-1 px-3 text-center text-lg-start pb-4">
-                            <h5 class="fw-semibold textstart">Centralized Operations Center</h5>
-                            <p class="fw-light fs-6  text-justify-mobile" style="font-family: 'Poppins';">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                              ut labore et dolore magna aliqua.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-7 p-2">
-                    <div class="card p-3 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-lg-5 d-flex justify-content-center align-items-center">
-                            <i class="bi bi-recycle" style="font-size: 6rem; color:#891014;"></i>
-                          </div>
-                          <div class="col-lg-7 p-1 text-end">
-                            <h5 class="fw-semibold textstart">
-                              Compliance tracker</h5>
-                            <p class="fw-light fs-6 text-justify-mobile" style=" font-family: 'poppins' ;">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                              ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-12 p-2">
-                    <div class="card p-3 p-md-4 p-lg-5 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
-                      <div class="card-body">
-                        <div class="row d-flex flex-column flex-lg-row align-items-center">
-                          <!-- Icon first on mobile, second on desktop -->
-                          <div
-                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-2 mb-4 mb-lg-0">
-                            <i class="bi bi-journal-check" style="font-size: 6rem; color:#891014;"></i>
-                          </div>
-
-                          <!-- Text second on mobile, first on desktop -->
-                          <div class="col-lg-9 order-2 order-lg-1 text-center text-lg-start px-3 px-lg-4">
-                            <h5 class="fw-semibold textstart">Centralized Client Records and File Storage</h5>
-                            <p class="fw-light fs-6 text-justify-mobile" style="font-family: 'Poppins';">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi mauris, amet risus et,
-                              tincidunt varius
-                              felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi mauris, amet
-                              risus et, tincidunt
-                              varius felis.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-7 p-2">
-                    <div class="card p-3 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
-                      <div class="card-body">
-                        <div class="row d-flex flex-column flex-lg-row align-items-center">
-                          <!-- Icon column (first on mobile, second on desktop) -->
-                          <div
-                            class="col-lg-4 d-flex justify-content-center align-items-center order-1 order-lg-2 pt-3 px-1 mb-3 mb-lg-0"
-                            style="height: 100%;">
-                            <i class="bi bi-globe-americas" style="font-size: 6rem; color: #891014;"></i>
-                          </div>
-                          <!-- Text column (second on mobile, first on desktop) -->
-                          <div class="col-lg-8 order-2 order-lg-1 px-4 text-center text-lg-start">
-                            <h5 class="fw-semibold textstart">Seamless Email Integration</h5>
-                            <p class="fw-light fs-6 text-justify-mobile" style="font-family: 'Poppins';">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                              ut labore et dolore magna aliqua.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-5 p-2">
-                    <div class="card p-2 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-lg-3 d-flex justify-content-center align-items-center pt-3 pb-5"
-                            style="height: 100%;">
-                            <i class="bi bi-tools" style=" font-size: 4rem; color:#891014;"></i>
-                          </div>
-                          <div class="col-lg-9 p-2 text-end">
-                            <h5 class="fw-semibold textstart">
-                              Comments and Notes Management System
-                            </h5>
-                            <p class="fw-light fs-6 text-justify-mobile" style=" font-family: 'poppins' ;">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                              ut labore et dolore magna aliqua. </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-12 p-2">
-                    <div class="card p-3 p-md-4 p-lg-5 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
-                      <div class="card-body">
-                        <div class="row d-flex flex-column flex-lg-row align-items-center">
-                          <!-- Icon: top on mobile, right on desktop -->
-                          <div
-                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-2 mb-4 mb-lg-0">
-                            <i class="bi bi-journal-check" style="font-size: 6rem; color:#891014;"></i>
-                          </div>
-                          <!-- Text: below icon on mobile, left on desktop -->
-                          <div class="col-lg-9 order-2 order-lg-1 pt-3 pt-lg-0 text-center text-lg-start px-3 px-lg-4">
-                            <h5 class="fw-semibold textstart">AML/CFT Risk Monitoring</h5>
-                            <p class="fw-light fs-6 text-justify-mobile" style="font-family: 'Poppins';">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi mauris, amet risus et,
-                              tincidunt varius felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi
-                              mauris, amet risus et, tincidunt varius felis.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-5 p-2">
-                    <div class="card p-2 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
-                      <div class="card-body">
-                        <div class="row d-flex flex-column flex-lg-row align-items-center">
-                          <!-- Icon: top on mobile, right on desktop -->
-                          <div
-                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-2 px-3 mb-3 mb-lg-0">
-                            <i class="bi bi-patch-check" style="font-size: 5rem; color:#891014;"></i>
-                          </div>
-                          <!-- Text: below icon on mobile, left on desktop -->
-                          <div class="col-lg-9 order-2 order-lg-1 px-4 text-center text-lg-start">
-                            <h5 class="fw-semibold textstart">ACRA Entity Information Query</h5>
-                            <p class="fw-light fs-6 text-justify-mobile" style="font-family: 'Poppins';">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                              ut labore et dolore magna aliqua.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-7 p-2">
-                    <div class="card p-3 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-lg-4 d-flex justify-content-center align-items-center">
-                            <i class="bi bi-recycle" style="font-size: 6rem; color:#891014;"></i>
-                          </div>
-                          <div class="col-lg-8 p-1 text-end">
-                            <h5 class="fw-semibold textstart">
-                              Real-time Insights and Analytics</h5>
-                            <p class="fw-light fs-6 text-justify-mobile" style=" font-family: 'poppins' ;">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                              ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-7 p-2">
-                    <div class="card p-3 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
-                      <div class="card-body">
-                        <div class="row d-flex flex-column flex-lg-row align-items-center">
-                          <!-- Icon: top on mobile, right on desktop -->
-                          <div
-                            class="col-lg-4 d-flex justify-content-center align-items-center order-1 order-lg-2 pt-3 px-1">
-                            <i class="bi bi-globe-americas" style="font-size: 6rem; color: #891014;"></i>
-                          </div>
-                          <!-- Text: below icon on mobile, left on desktop -->
-                          <div class="col-lg-8 order-2 order-lg-1 px-4 text-center text-lg-start">
-                            <h5 class="fw-semibold textstart">Client Lifecycle Management</h5>
-                            <p class="fw-light fs-6 text-justify-mobile" style="font-family: 'Poppins';">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                              ut labore et dolore magna aliqua.
-                            </p>
+                          <div class="col-lg-9 order-2 order-lg-1 text-center text-lg-start">
+                            <h5 class="fw-semibold">Centralized Operations Center</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'poppins' ;">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-lg-5 p-2">
-                    <div class="card p-2 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                  <!-- Card 7 -->
+                  <div class="col-lg-7">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
                       <div class="card-body">
-                        <div class="row">
-                          <div class="col-lg-3 d-flex justify-content-center align-items-center pt-3 "
-                            style="height: 100%;">
-                            <i class="bi bi-tools" style=" font-size: 5rem; color:#891014;"></i>
+                        <div class="row flex-column flex-lg-row align-items-center">
+                          <div class="col-lg-5 d-flex justify-content-center align-items-center mb-3 mb-lg-0">
+                            <i class="bi bi-recycle" style="font-size: 4rem; color:#891014;"></i>
                           </div>
-                          <div class="col-lg-9 p-2 text-end">
-                            <h5 class="fw-semibold textstart">
-                              Integrated WhatsApp
-                              Messaging</h5>
-                            <p class="fw-light fs-6 text-justify-mobile" style=" font-family: 'poppins' ;">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                              ut labore et dolore magna aliqua. </p>
+                          <div class="col-lg-7 text-center text-lg-end">
+                            <h5 class="fw-semibold">Compliance tracker</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'poppins' ;">Lorem ipsum dolor
+                              sit amet, consectetur adipiscing elit. Sed do
+                              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-5 col-md-12 col-sx-12 p-2">
-                    <div class="card p-2 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+
+                  <!-- Card 8 -->
+                  <div class="col-lg-12">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
                       <div class="card-body">
-                        <div class="row d-flex flex-column flex-lg-row align-items-center">
-                          <!-- Icon: top on mobile, right on desktop -->
+                        <div class="row flex-column flex-lg-row align-items-center">
                           <div
-                            class="col-lg-3 col-md-12 col-sx-12 d-flex justify-content-center align-items-center order-1 order-lg-2 px-3 mb-3 mb-lg-0">
-                            <i class="bi bi-patch-check" style="font-size: 5rem; color:#891014;"></i>
+                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-2 mb-3 mb-lg-0">
+                            <i class="bi bi-journal-check" style="font-size: 4rem; color:#891014;"></i>
                           </div>
-                          <!-- Text: bottom on mobile, left on desktop -->
-                          <div class="col-lg-9 col-md-12 col-sx-12 order-2 order-lg-1 px-3 text-center text-lg-start">
-                            <h5 class="fw-semibold textstart">E-signing feature</h5>
-                            <p class="fw-light fs-6 text-justify-mobile" style="font-family: 'Poppins';">
+                          <div class="col-lg-9 order-2 order-lg-1 text-center text-lg-start">
+                            <h5 class="fw-semibold">Centralized Client Records and File Storage</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'poppins' ;">Lorem ipsum dolor
+                              sit amet, consectetur adipiscing elit. Aenean mi
+                              mauris, amet risus et, tincidunt varius felis. Lorem ipsum dolor sit amet, consectetur
+                              adipiscing elit.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Card 9 -->
+                  <div class="col-lg-7">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                      <div class="card-body">
+                        <div class="row flex-column flex-lg-row align-items-center">
+                          <div
+                            class="col-lg-4 d-flex justify-content-center align-items-center order-1 order-lg-2 mb-3 mb-lg-0">
+                            <i class="bi bi-globe-americas" style="font-size: 4rem; color: #891014;"></i>
+                          </div>
+                          <div class="col-lg-8 order-2 order-lg-1 text-center text-lg-start">
+                            <h5 class="fw-semibold">Seamless Email Integration</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'poppins' ;">Lorem ipsum dolor
+                              sit amet, consectetur adipiscing elit. Sed do
+                              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 10 -->
+                  <div class="col-lg-5">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                      <div class="card-body">
+                        <div class="row flex-column flex-lg-row align-items-center">
+                          <div
+                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-1 mb-3 mb-lg-0">
+                            <i class="bi bi-tools" style="font-size: 4rem; color:#891014;"></i>
+                          </div>
+                          <div class="col-lg-9 order-2 order-lg-2 text-center text-lg-end">
+                            <h5 class="fw-semibold">Comments and Notes Management System</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'Poppins';">
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
                               ut labore et dolore magna aliqua.
                             </p>
                           </div>
-
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 11 -->
+                  <div class="col-lg-12">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                      <div class="card-body">
+                        <div class="row flex-column flex-lg-row align-items-center">
+                          <div
+                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-2 mb-3 mb-lg-0">
+                            <i class="bi bi-journal-check" style="font-size: 4rem; color:#891014;"></i>
+                          </div>
+                          <div class="col-lg-9 order-2 order-lg-1 text-center text-lg-start">
+                            <h5 class="fw-semibold">AML/CFT Risk Monitoring</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'poppins' ;">Lorem ipsum dolor
+                              sit amet, consectetur adipiscing elit. Aenean mi
+                              mauris, amet risus et, tincidunt varius felis. Lorem ipsum dolor sit amet, consectetur
+                              adipiscing elit.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 12 -->
+                  <div class="col-lg-5">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                      <div class="card-body">
+                        <div class="row flex-column flex-lg-row align-items-center">
+                          <div
+                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-2 mb-3 mb-lg-0">
+                            <i class="bi bi-patch-check" style="font-size: 4rem; color:#891014;"></i>
+                          </div>
+                          <div class="col-lg-9 order-2 order-lg-1 text-center text-lg-start">
+                            <h5 class="fw-semibold">ACRA Entity Information Query</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'poppins' ;">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-lg-7 col-md-12 col-sx-12 p-2">
-                    <div class="card p-2 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                  <!-- Card 13 -->
+                  <div class="col-lg-7">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
                       <div class="card-body">
-                        <div class="row">
-                          <div class="col-lg-5 col-md-12 col-sx-12 d-flex justify-content-center align-items-center">
-                            <i class="bi bi-recycle" style="font-size: 6rem; color:#891014;"></i>
+                        <div class="row flex-column flex-lg-row align-items-center">
+                          <div class="col-lg-5 d-flex justify-content-center align-items-center mb-3 mb-lg-0">
+                            <i class="bi bi-recycle" style="font-size: 4rem; color:#891014;"></i>
                           </div>
-                          <div class="col-lg-7 col-md-12 col-sx-12 p-2 text-end">
-                            <h5 class="fw-semibold textstart">
-                              Proposal Generator</h5>
-                            <p class="fw-light fs-6 text-justify-mobile" style=" font-family: 'poppins';">
+                          <div class="col-lg-7 text-center text-lg-end">
+                            <h5 class="fw-semibold">Real-time Insights and Analytics</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'poppins' ;">Lorem ipsum dolor
+                              sit amet, consectetur adipiscing elit. Sed do
+                              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 14 -->
+                  <div class="col-lg-7">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                      <div class="card-body">
+                        <div class="row flex-column flex-lg-row align-items-center">
+                          <div
+                            class="col-lg-4 d-flex justify-content-center align-items-center order-1 order-lg-2 mb-3 mb-lg-0">
+                            <i class="bi bi-globe-americas" style="font-size: 4rem; color: #891014;"></i>
+                          </div>
+                          <div class="col-lg-8 order-2 order-lg-1 text-center text-lg-start">
+                            <h5 class="fw-semibold">Client Lifecycle Management</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'poppins' ;">Lorem ipsum dolor
+                              sit amet, consectetur adipiscing elit. Sed do
+                              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 15 -->
+                  <div class="col-lg-5">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                      <div class="card-body">
+                        <div class="row flex-column flex-lg-row align-items-center">
+                          <div
+                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-1 mb-3 mb-lg-0">
+                            <i class="bi bi-tools" style="font-size: 4rem; color:#891014;"></i>
+                          </div>
+                          <div class="col-lg-9 order-2 order-lg-2 text-center text-lg-end">
+                            <h5 class="fw-semibold">Integrated WhatsApp Messaging</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'Poppins';">
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                              ut labore et dolore magna aliqua. </p>
+                              ut labore et dolore magna aliqua.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 16 -->
+                  <div class="col-lg-5">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                      <div class="card-body">
+                        <div class="row flex-column flex-lg-row align-items-center">
+                          <div
+                            class="col-lg-3 d-flex justify-content-center align-items-center order-1 order-lg-2 mb-3 mb-lg-0">
+                            <i class="bi bi-patch-check" style="font-size: 4rem; color:#891014;"></i>
+                          </div>
+                          <div class="col-lg-9 order-2 order-lg-1 text-center text-lg-start">
+                            <h5 class="fw-semibold">E-signing feature</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'poppins' ;">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Card 17 -->
+                  <div class="col-lg-7">
+                    <div class="card h-100 p-4 rounded-4" style="background-color: rgba(137, 16, 20, 0.07);">
+                      <div class="card-body">
+                        <div class="row flex-column flex-lg-row align-items-center">
+                          <div class="col-lg-5 d-flex justify-content-center align-items-center mb-3 mb-lg-0">
+                            <i class="bi bi-recycle" style="font-size: 4rem; color:#891014;"></i>
+                          </div>
+                          <div class="col-lg-7 text-center text-lg-end">
+                            <h5 class="fw-semibold">Proposal Generator</h5>
+                            <p class="fw-light fs-6" style="font-size: 14px; font-family: 'poppins' ;">Lorem ipsum dolor
+                              sit amet, consectetur adipiscing elit. Sed do
+                              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                           </div>
                         </div>
                       </div>
@@ -923,7 +754,7 @@
           <!-- Right: Social Icons & Email -->
           <div class="d-flex flex-wrap align-items-center gap-3">
             <div class="d-flex align-items-center">
-              <a href="https://instagram.com" target="_blank" class="text-white me-3 fs-5">
+              <!--<a href="https://instagram.com" target="_blank" class="text-white me-3 fs-5">
                 <i class="bi bi-instagram"></i>
               </a>
               <a href="https://facebook.com" target="_blank" class="text-white me-3 fs-5">
@@ -931,8 +762,9 @@
               </a>
               <a href="https://twitter.com" target="_blank" class="text-white me-3 fs-5">
                 <i class="bi bi-twitter-x"></i>
-              </a>
-              <a href="https://linkedin.com" target="_blank" class="text-white fs-5">
+              </a>-->
+              <a href="https://www.linkedin.com/company/clientbase-pte-ltd/?originalSubdomain=sg" target="_blank"
+                class="text-white fs-5">
                 <i class="bi bi-linkedin"></i>
               </a>
             </div>
@@ -967,11 +799,12 @@
         <div class="col-12">
           <div class="d-flex flex-column justify-content-center align-items-center gap-2">
             <div class="d-flex justify-content-center gap-3">
-              <a href="https://instagram.com" target="_blank" class="text-white fs-5"><i
+              <!-- <a href="https://instagram.com" target="_blank" class="text-white fs-5"><i
                   class="bi bi-instagram"></i></a>
               <a href="https://facebook.com" target="_blank" class="text-white fs-5"><i class="bi bi-facebook"></i></a>
-              <a href="https://twitter.com" target="_blank" class="text-white fs-5"><i class="bi bi-twitter-x"></i></a>
-              <a href="https://linkedin.com" target="_blank" class="text-white fs-5"><i class="bi bi-linkedin"></i></a>
+              <a href="https://twitter.com" target="_blank" class="text-white fs-5"><i class="bi bi-twitter-x"></i></a>-->
+              <a href="https://www.linkedin.com/company/clientbase-pte-ltd/?originalSubdomain=sg" target="_blank"
+                class="text-white fs-5"><i class="bi bi-linkedin"></i></a>
             </div>
             <span class="text-white small" style="font-family: 'poppins'; font-size: 10px;">info@clientbase.pro</span>
           </div>
