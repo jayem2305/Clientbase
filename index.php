@@ -20,6 +20,25 @@
 
   </style>
   <style>
+    @media (max-width: 576px) {
+      .central-image-bg {
+        width: 100% !important;
+        left: 0 !important;
+        top: 250px !important;
+      }
+
+      .central-image-fg {
+        width: 95% !important;
+        top: 400px !important;
+        right: 0 !important;
+      }
+
+      .position-relative.central-wrapper {
+        min-height: 700px !important;
+        padding-bottom: 480px !important;
+      }
+    }
+
     @media (max-width: 768px) {
       .img-fluid.position-relative {
         display: block;
@@ -433,430 +452,412 @@
                 </div>
               </div>
             </div>
-            <div class="row g-4 align-items-center" style="margin-bottom: 700px;">
-              <!-- Image -->
-              <div class="col-12 mb-5">
-                <!-- Everything inside one position-relative wrapper -->
-                <div class="position-relative" style="min-height: 520px; padding-bottom: 300px;">
-                  <!-- 👈 Add this line -->
-
-                  <!-- Card with heading and paragraph -->
-                  <div class="card p-4 rounded-4 border-0 shadow-sm mx-auto mb-5"
-                    style="background-color: rgba(137, 16, 20, 0.07); max-width: 900px; z-index: 2; position: relative;">
-                    <div class="card-body">
-                      <h5 class="fw-semibold mb-3" style="font-family: 'Lexend', sans-serif;">
-                        Centralized Operations Center
-                      </h5>
-                      <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
-                        Streamline team collaboration with a unified ticketing system that automatically filters and
-                        routes tasks based on departments, ensuring efficient workflow management across your
-                        organization.
-                      </p>
-                    </div>
-                  </div>
-
-                  <!-- Background image, shifted right -->
-                  <img src="assets/img/image_13.png" alt="Background Tickets" class="position-absolute img-fluid"
-                    style="width: 70%; top: 120px; left: 40%; z-index: 1; opacity: 1;">
-
-                  <!-- Foreground image -->
-                  <img src="assets/img/image_15.png" alt="Main Ticket View"
-                    class="position-absolute img-fluid rounded-3 shadow-lg"
-                    style="width: 80%; top: 70%; right: 30%; z-index: 3;">
-                </div>
-              </div>
-            </div>
-
-            <!-- What We Deliver -->
-            <div class="col-12">
-              <div class="row gy-4 gx-4">
-                <div class="col-lg-5 mb-4">
-                  <div class="card h-100 p-4 rounded-4 border-0 shadow-sm"
-                    style="background-color: rgba(137, 16, 20, 0.07);">
-                    <div class="card-body">
-                      <div class="row align-items-center">
-                        <div class="col-9 text-start">
-                          <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Centralized Client Records and
-                            File Storage</h5>
-                        </div>
-                        <div class="col-3 d-flex justify-content-end">
-                          <img src="assets/img/store.png" alt="Banner Preview" class="img-fluid"
-                            style="max-width: 55px;">
-                        </div>
-                      </div>
-                      <div class="row mt-3">
-                        <div class="col-12">
-                          <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
-                            Access all client information, contacts, and employee records from one secure, centralized
-                            database with customizable authorization controls for team members.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 2 -->
-                <div class="col-lg-7 mb-4">
-                  <div class="card h-100 p-4 rounded-4 border-0 shadow-sm"
-                    style="background-color: rgba(137, 16, 20, 0.07);">
-                    <div class="card-body">
-                      <!-- Row 1: Image + Heading -->
-                      <div class="row align-items-center">
-                        <!-- Image/Icon -->
-                        <div class="col-3 d-flex justify-content-start">
-                          <img src="assets/img/target.png" alt="Banner Preview" class="img-fluid"
-                            style="max-width: 55px;">
-                        </div>
-                        <!-- Heading -->
-                        <div class="col-9 text-end">
-                          <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Compliance tracker</h5>
-                        </div>
-                      </div>
-
-                      <!-- Paragraph -->
-                      <div class="row mt-3">
-                        <div class="col-12">
-                          <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
-                            Monitor and maintain adherence to Singaporean regulatory requirements with automated
-                            tracking tools that help clients stay compliant and avoid legal issues.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 4 -->
-                <div class="col-lg-7 mb-4">
-                  <div class="card h-100 p-4 rounded-4 border-0 shadow-sm"
-                    style="background-color: rgba(137, 16, 20, 0.07);">
-                    <div class="card-body">
-                      <div class="row align-items-center">
-                        <div class="col-8 text-start">
-                          <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Seamless Email Integration</h5>
-                        </div>
-                        <div class="col-4 d-flex justify-content-end">
-                          <img src="assets/img/email.png" alt="Banner Preview" class="img-fluid"
-                            style="max-width: 55px;">
-                        </div>
-                      </div>
-                      <div class="row mt-3">
-                        <div class="col-12">
-                          <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
-                            Work directly within the app with built-in Gmail and Outlook integration, allowing you to
-                            send emails, attach documents, and automatically save correspondence to client records
-                            without switching platforms.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 5 -->
-                <div class="col-lg-5 mb-4">
-                  <div class="card h-100 p-4 rounded-4 border-0 shadow-sm"
-                    style="background-color: rgba(137, 16, 20, 0.07);">
-                    <div class="card-body">
-                      <div class="row align-items-center">
-                        <div class="col-4 d-flex justify-content-start">
-                          <img src="assets/img/group.png" alt="Banner Preview" class="img-fluid"
-                            style="max-width: 55px;">
-                        </div>
-                        <div class="col-8 text-end">
-                          <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Comments and Notes
-                            Management System</h5>
-                        </div>
-
-                      </div>
-                      <div class="row mt-3">
-                        <div class="col-12">
-                          <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
-                            Foster team collaboration through organized comment threads on any record, creating a
-                            centralized communication history that makes tracking conversations and decisions
-                            effortless.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-5 mb-4">
-                  <div class="card h-100 p-4 rounded-4 border-0 shadow-sm"
-                    style="background-color: rgba(137, 16, 20, 0.07);">
-                    <div class="card-body">
-                      <div class="row align-items-center">
-                        <div class="col-9 text-start">
-                          <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">AML/CFT Risk Monitoring</h5>
-                        </div>
-                        <div class="col-3 d-flex justify-content-end">
-                          <img src="assets/img/watch.png" alt="Banner Preview" class="img-fluid"
-                            style="max-width: 55px;">
-                        </div>
-                      </div>
-                      <div class="row mt-3">
-                        <div class="col-12">
-                          <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
-                            Conduct comprehensive anti-money laundering and counter-terrorism financing assessments for
-                            new and existing clients, including Know-Your-Customer background checks with results
-                            automatically saved to client profiles.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 2 -->
-                <div class="col-lg-7 mb-4">
-                  <div class="card h-100 p-4 rounded-4 border-0 shadow-sm"
-                    style="background-color: rgba(137, 16, 20, 0.07);">
-                    <div class="card-body">
-                      <!-- Row 1: Image + Heading -->
-                      <div class="row align-items-center">
-                        <!-- Image/Icon -->
-                        <div class="col-3 d-flex justify-content-start">
-                          <img src="assets/img/sign.png" alt="Banner Preview" class="img-fluid"
-                            style="max-width: 55px;">
-                        </div>
-                        <!-- Heading -->
-                        <div class="col-9 text-end">
-                          <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">E-signing feature</h5>
-                        </div>
-                      </div>
-
-                      <!-- Paragraph -->
-                      <div class="row mt-3">
-                        <div class="col-12">
-                          <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
-                            Accelerate document processing with secure electronic signatures that reduce costs, enhance
-                            security, and improve the overall client experience.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 4 -->
-                <div class="col-lg-7 mb-4">
-                  <div class="card h-100 p-4 rounded-4 border-0 shadow-sm"
-                    style="background-color: rgba(137, 16, 20, 0.07);">
-                    <div class="card-body">
-                      <div class="row align-items-center">
-                        <div class="col-8 text-start">
-                          <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">ACRA Entity Information Query
-                          </h5>
-                        </div>
-                        <div class="col-4 d-flex justify-content-end">
-                          <img src="assets/img/info.png" alt="Banner Preview" class="img-fluid"
-                            style="max-width: 55px;">
-                        </div>
-                      </div>
-                      <div class="row mt-3">
-                        <div class="col-12">
-                          <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
-                            Instantly access up-to-date profile information for any registered ACRA entity directly
-                            within your workflow.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 5 -->
-                <div class="col-lg-5 mb-4">
-                  <div class="card h-100 p-4 rounded-4 border-0 shadow-sm"
-                    style="background-color: rgba(137, 16, 20, 0.07);">
-                    <div class="card-body">
-                      <div class="row align-items-center">
-                        <div class="col-4 d-flex justify-content-start">
-                          <img src="assets/img/light.png" alt="Banner Preview" class="img-fluid"
-                            style="max-width: 55px;">
-                        </div>
-                        <div class="col-8 text-end">
-                          <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Real-time Insights
-                            and Analytics</h5>
-                        </div>
-
-                      </div>
-                      <div class="row mt-3">
-                        <div class="col-12">
-                          <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
-                            Transform your operational data into actionable insights with comprehensive departmental and
-                            company-wide analytics that empower management decision-making.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-5 mb-4">
-                  <div class="card h-100 p-4 rounded-4 border-0 shadow-sm"
-                    style="background-color: rgba(137, 16, 20, 0.07);">
-                    <div class="card-body">
-                      <div class="row align-items-center">
-                        <div class="col-9 text-start">
-                          <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Client Lifecycle Management</h5>
-                        </div>
-                        <div class="col-3 d-flex justify-content-end">
-                          <img src="assets/img/docurec.png" alt="Banner Preview" class="img-fluid"
-                            style="max-width: 55px;">
-                        </div>
-                      </div>
-                      <div class="row mt-3">
-                        <div class="col-12">
-                          <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
-                            Track and manage every stage of your client relationships from initial contact through
-                            project completion with comprehensive lifecycle visibility.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 2 -->
-                <div class="col-lg-7 mb-4">
-                  <div class="card h-100 p-4 rounded-4 border-0 shadow-sm"
-                    style="background-color: rgba(137, 16, 20, 0.07);">
-                    <div class="card-body">
-                      <!-- Row 1: Image + Heading -->
-                      <div class="row align-items-center">
-                        <!-- Image/Icon -->
-                        <div class="col-3 d-flex justify-content-start">
-                          <img src="assets/img/message.png" alt="Banner Preview" class="img-fluid"
-                            style="max-width: 55px;">
-                        </div>
-                        <!-- Heading -->
-                        <div class="col-9 text-end">
-                          <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Integrated
-                            WhatsApp Messaging</h5>
-                        </div>
-                      </div>
-
-                      <!-- Paragraph -->
-                      <div class="row mt-3">
-                        <div class="col-12">
-                          <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
-                            Communicate with clients and team members directly through WhatsApp integration, keeping all
-                            conversations organized within your client management system.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 4 -->
-                <div class="col-lg-7 mb-4">
-                  <div class="card h-100 p-4 rounded-4 border-0 shadow-sm"
-                    style="background-color: rgba(137, 16, 20, 0.07);">
-                    <div class="card-body">
-                      <div class="row align-items-center">
-                        <div class="col-8 text-start">
-                          <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">People Performance Tracker</h5>
-                        </div>
-                        <div class="col-4 d-flex justify-content-end">
-                          <img src="assets/img/chat.png" alt="Banner Preview" class="img-fluid"
-                            style="max-width: 55px;">
-                        </div>
-                      </div>
-                      <div class="row mt-3">
-                        <div class="col-12">
-                          <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
-                            Leverage system-wide data to generate detailed performance analytics for individual
-                            employees or entire teams, supporting informed decisions on training, incentives, and
-                            personnel management.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 5 -->
-                <div class="col-lg-5 mb-4">
-                  <div class="card h-100 p-4 rounded-4 border-0 shadow-sm"
-                    style="background-color: rgba(137, 16, 20, 0.07);">
-                    <div class="card-body">
-                      <div class="row align-items-center">
-                        <div class="col-4 d-flex justify-content-start">
-                          <img src="assets/img/docu.png" alt="Banner Preview" class="img-fluid"
-                            style="max-width: 55px;">
-                        </div>
-                        <div class="col-8 text-end">
-                          <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Proposal Generator</h5>
-                        </div>
-
-                      </div>
-                      <div class="row mt-3">
-                        <div class="col-12">
-                          <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
-                            Create professional proposals quickly with real-time collaboration tools and integrated
-                            sales pipeline tracking to streamline your business development process.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          </li>
+        </ul>
       </div>
-      </li>
-      </ul>
     </div>
   </div>
-  </div>
-  </div>
-  <div class="row p-5">
-    <div class="col-lg-12 d-flex flex-column align-items-center justify-content-center text-center">
-      <img src="assets/img/chain.png" alt="Banner Preview" class="img-fluid mb-3" style="max-width: 55px;">
-      <h2 class="fw-bold">I'm ready to break free.<br>I want to know more.</h2>
+  <div class="col-lg-12 col-md-12 p-5">
+    <div class="row g-4 justify-content-center align-items-center pb-5">
+      <div class="col-auto">
+        <img src="assets/img/img_2.png" alt="Banner Preview" class="img-fluid pb-5" style="max-width: 90%;">
+      </div>
     </div>
+
   </div>
+  <div class="container mobileview" style="font-family: 'Lexend', sans-serif; max-width: 70%;">
+    <div class="row g-4 justify-content-center align-items-center" style="margin-bottom: 700px;">
+      <div class="col-12 mb-5">
+        <div class="position-relative central-wrapper" style="min-height: 520px; padding-bottom: 300px;">
+          <div class="card p-4 rounded-4 border-0 shadow-sm mx-auto mb-5"
+            style="background-color: rgba(137, 16, 20, 0.07); max-width: 900px; z-index: 2; position: relative;">
+            <div class="card-body">
+              <h5 class="fw-semibold mb-3" style="font-family: 'Lexend', sans-serif;">
+                Centralized Operations Center
+              </h5>
+              <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                Streamline team collaboration with a unified ticketing system that automatically filters and
+                routes tasks based on departments, ensuring efficient workflow management across your
+                organization.
+              </p>
+            </div>
+          </div>
 
-  <div class="container py-5" id="signup_form" style="font-family: 'Lexend', sans-serif;">
-    <div class="col-lg-12 pt-5">
-      <div class="card rounded-0 p-3" style="background-color:#E6E6E6;">
-        <div class="card-body p-3 p-lg-4">
-          <form id="waitlist-form" class="form-floating">
-            <div class="row">
-              <div class="col-lg-8">
+          <img src="assets/img/image_13.png" alt="Background Tickets"
+            class="position-absolute img-fluid central-image-bg"
+            style="width: 70%; top: 120px; left: 40%; z-index: 1; opacity: 1;">
 
-                <div class="form-floating mb-3">
-                  <input type="text" class="form-control" id="fullname" placeholder="fullname" required>
-                  <label for="fullname">Fullname</label>
-                </div>
-                <div class="form-floating mb-3">
-                  <input type="email" class="form-control" id="email" placeholder="Email" required>
-                  <label for="email">Email</label>
-                </div>
-                <div class="form-floating mb-3">
-                  <input type="number" class="form-control" id="companysize" placeholder="Company Size" required>
-                  <label for="companysize">Company Size</label>
-                </div>
-                <div class="form-floating">
-                  <textarea class="form-control" id="inquiry" placeholder="Leave a comment here" id="floatingTextarea2"
-                    style="height: 100px"></textarea>
-                  <label for="floatingTextarea2">Briefing of summary in Inquiry </label>
-                </div>
+          <img src="assets/img/image_15.png" alt="Main Ticket View"
+            class="position-absolute img-fluid rounded-3 shadow-lg central-image-fg"
+            style="width: 80%; top: 70%; right: 30%; z-index: 3;">
+        </div>
+      </div>
 
+    </div>
+
+    <!-- What We Deliver -->
+    <div class="col-12">
+      <div class="row gy-4 gx-4">
+        <div class="col-lg-5 mb-4">
+          <div class="card h-100 p-4 rounded-4 border-0 shadow-sm" style="background-color: rgba(137, 16, 20, 0.07);">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-9 text-start">
+                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Centralized Client Records and
+                    File Storage</h5>
+                </div>
+                <div class="col-3 d-flex justify-content-end">
+                  <img src="assets/img/store.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
+                </div>
               </div>
-              <div class="col-lg-4" style=" font-family: 'poppins';">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                  eu fugiat nulla pariatur.
-
-                </p>
-                <hr>
-                <button type="submit" id="submitBtn" class="btn  w-100 rounded-pill mt-3"
-                  style="background-color: #CC2127; color:#fff">Submit</button>
+              <div class="row mt-3">
+                <div class="col-12">
+                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                    Access all client information, contacts, and employee records from one secure, centralized
+                    database with customizable authorization controls for team members.
+                  </p>
+                </div>
               </div>
             </div>
-          </form>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-lg-7 mb-4">
+          <div class="card h-100 p-4 rounded-4 border-0 shadow-sm" style="background-color: rgba(137, 16, 20, 0.07);">
+            <div class="card-body">
+              <!-- Row 1: Image + Heading -->
+              <div class="row align-items-center">
+                <!-- Image/Icon -->
+                <div class="col-3 d-flex justify-content-start">
+                  <img src="assets/img/target.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
+                </div>
+                <!-- Heading -->
+                <div class="col-9 text-end">
+                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Compliance tracker</h5>
+                </div>
+              </div>
+
+              <!-- Paragraph -->
+              <div class="row mt-3">
+                <div class="col-12">
+                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                    Monitor and maintain adherence to Singaporean regulatory requirements with automated
+                    tracking tools that help clients stay compliant and avoid legal issues.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-lg-7 mb-4">
+          <div class="card h-100 p-4 rounded-4 border-0 shadow-sm" style="background-color: rgba(137, 16, 20, 0.07);">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-8 text-start">
+                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Seamless Email Integration</h5>
+                </div>
+                <div class="col-4 d-flex justify-content-end">
+                  <img src="assets/img/email.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-12">
+                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                    Work directly within the app with built-in Gmail and Outlook integration, allowing you to
+                    send emails, attach documents, and automatically save correspondence to client records
+                    without switching platforms.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="col-lg-5 mb-4">
+          <div class="card h-100 p-4 rounded-4 border-0 shadow-sm" style="background-color: rgba(137, 16, 20, 0.07);">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-4 d-flex justify-content-start">
+                  <img src="assets/img/group.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
+                </div>
+                <div class="col-8 text-end">
+                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Comments and Notes
+                    Management System</h5>
+                </div>
+
+              </div>
+              <div class="row mt-3">
+                <div class="col-12">
+                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                    Foster team collaboration through organized comment threads on any record, creating a
+                    centralized communication history that makes tracking conversations and decisions
+                    effortless.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 mb-4">
+          <div class="card h-100 p-4 rounded-4 border-0 shadow-sm" style="background-color: rgba(137, 16, 20, 0.07);">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-9 text-start">
+                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">AML/CFT Risk Monitoring</h5>
+                </div>
+                <div class="col-3 d-flex justify-content-end">
+                  <img src="assets/img/watch.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-12">
+                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                    Conduct comprehensive anti-money laundering and counter-terrorism financing assessments for
+                    new and existing clients, including Know-Your-Customer background checks with results
+                    automatically saved to client profiles.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-lg-7 mb-4">
+          <div class="card h-100 p-4 rounded-4 border-0 shadow-sm" style="background-color: rgba(137, 16, 20, 0.07);">
+            <div class="card-body">
+              <!-- Row 1: Image + Heading -->
+              <div class="row align-items-center">
+                <!-- Image/Icon -->
+                <div class="col-3 d-flex justify-content-start">
+                  <img src="assets/img/sign.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
+                </div>
+                <!-- Heading -->
+                <div class="col-9 text-end">
+                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">E-signing feature</h5>
+                </div>
+              </div>
+
+              <!-- Paragraph -->
+              <div class="row mt-3">
+                <div class="col-12">
+                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                    Accelerate document processing with secure electronic signatures that reduce costs, enhance
+                    security, and improve the overall client experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-lg-7 mb-4">
+          <div class="card h-100 p-4 rounded-4 border-0 shadow-sm" style="background-color: rgba(137, 16, 20, 0.07);">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-8 text-start">
+                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">ACRA Entity Information Query
+                  </h5>
+                </div>
+                <div class="col-4 d-flex justify-content-end">
+                  <img src="assets/img/info.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-12">
+                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                    Instantly access up-to-date profile information for any registered ACRA entity directly
+                    within your workflow.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="col-lg-5 mb-4">
+          <div class="card h-100 p-4 rounded-4 border-0 shadow-sm" style="background-color: rgba(137, 16, 20, 0.07);">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-4 d-flex justify-content-start">
+                  <img src="assets/img/light.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
+                </div>
+                <div class="col-8 text-end">
+                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Real-time Insights
+                    and Analytics</h5>
+                </div>
+
+              </div>
+              <div class="row mt-3">
+                <div class="col-12">
+                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                    Transform your operational data into actionable insights with comprehensive departmental and
+                    company-wide analytics that empower management decision-making.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 mb-4">
+          <div class="card h-100 p-4 rounded-4 border-0 shadow-sm" style="background-color: rgba(137, 16, 20, 0.07);">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-9 text-start">
+                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Client Lifecycle Management</h5>
+                </div>
+                <div class="col-3 d-flex justify-content-end">
+                  <img src="assets/img/docurec.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-12">
+                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                    Track and manage every stage of your client relationships from initial contact through
+                    project completion with comprehensive lifecycle visibility.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-lg-7 mb-4">
+          <div class="card h-100 p-4 rounded-4 border-0 shadow-sm" style="background-color: rgba(137, 16, 20, 0.07);">
+            <div class="card-body">
+              <!-- Row 1: Image + Heading -->
+              <div class="row align-items-center">
+                <!-- Image/Icon -->
+                <div class="col-3 d-flex justify-content-start">
+                  <img src="assets/img/message.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
+                </div>
+                <!-- Heading -->
+                <div class="col-9 text-end">
+                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Integrated
+                    WhatsApp Messaging</h5>
+                </div>
+              </div>
+
+              <!-- Paragraph -->
+              <div class="row mt-3">
+                <div class="col-12">
+                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                    Communicate with clients and team members directly through WhatsApp integration, keeping all
+                    conversations organized within your client management system.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-lg-7 mb-4">
+          <div class="card h-100 p-4 rounded-4 border-0 shadow-sm" style="background-color: rgba(137, 16, 20, 0.07);">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-8 text-start">
+                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">People Performance Tracker</h5>
+                </div>
+                <div class="col-4 d-flex justify-content-end">
+                  <img src="assets/img/chat.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-12">
+                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                    Leverage system-wide data to generate detailed performance analytics for individual
+                    employees or entire teams, supporting informed decisions on training, incentives, and
+                    personnel management.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="col-lg-5 mb-4">
+          <div class="card h-100 p-4 rounded-4 border-0 shadow-sm" style="background-color: rgba(137, 16, 20, 0.07);">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-4 d-flex justify-content-start">
+                  <img src="assets/img/docu.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
+                </div>
+                <div class="col-8 text-end">
+                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Proposal Generator</h5>
+                </div>
+
+              </div>
+              <div class="row mt-3">
+                <div class="col-12">
+                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                    Create professional proposals quickly with real-time collaboration tools and integrated
+                    sales pipeline tracking to streamline your business development process.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row p-5">
+      <div class="col-lg-12 d-flex flex-column align-items-center justify-content-center text-center">
+        <img src="assets/img/chain.png" alt="Banner Preview" class="img-fluid mb-3" style="max-width: 55px;">
+        <h2 class="fw-bold">I'm ready to break free.<br>I want to know more.</h2>
+      </div>
+    </div>
+
+    <div class="container py-5" id="signup_form" style="font-family: 'Lexend', sans-serif;">
+      <div class="col-lg-12 pt-5">
+        <div class="card rounded-0 p-3" style="background-color:#E6E6E6;">
+          <div class="card-body p-3 p-lg-4">
+            <form id="waitlist-form" class="form-floating">
+              <div class="row">
+                <div class="col-lg-8">
+
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="fullname" placeholder="fullname" required>
+                    <label for="fullname">Fullname</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="companysize" placeholder="Company Size" required>
+                    <label for="companysize">Company Size</label>
+                  </div>
+                  <div class="form-floating">
+                    <textarea class="form-control" id="inquiry" placeholder="Leave a comment here"
+                      id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Briefing of summary in Inquiry </label>
+                  </div>
+                  <button type="submit" id="submitBtn" class="btn  w-100 rounded-pill mt-3"
+                    style="background-color: #CC2127; color:#fff">Submit</button>
+                </div>
+                <div class="col-lg-4" style=" font-family: 'poppins';">
+                  <p>We believe business should be about building what matters most to you and not getting bogged down
+                    in complexity.</p>
+                  <br>
+                  <p>
+                    Drop us your details below and we'll connect you with someone from our team who actually gets your
+                    industry. Expect to hear back within 48 hours (usually sooner, because we're eager to chat).
+                  </p>
+                  <br>
+                  <p>
+                    <b>Let's start something great together!</b>
+
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
   <!-- Desktop / Larger Screen Footer -->
   <footer class="text-white py-4 mt-5 d-none d-md-block"
     style="background-color: #891014; padding: 200px; font-family: 'Lexend', sans-serif;">
@@ -865,14 +866,19 @@
         <!-- Left: Heading & Button -->
         <div class="col-md-6 text-start mb-3 mb-md-0">
           <h1 class="mb-0 fw-semibold">Master Your <br> Client Domain.</h1>
-          <a href="https://app.clientbase.pro" class="btn btn-light rounded-pill mt-3 text-danger fw-semibold"
+          <!-- <a href="https://app.clientbase.pro" class="btn btn-light rounded-pill mt-3 text-danger fw-semibold"
             style="color: #891014;">
             Start today
-          </a>
+          </a>-->
         </div>
 
         <!-- Right: QR Image -->
         <div class="col-md-6 text-end">
+          <span class="text-white small" style="font-family: 'poppins'; font-size: 10px;">Login to sign Up to</span>
+          <div class="col-12 d-flex justify-content-end">
+            <img src="assets/Logos/SVG/ClientBook Logo FullColour - White Text.svg" alt="Banner Preview"
+              class="img-fluid" style="max-width: 100px;">
+          </div>
           <img src="assets/img/clientbase_qr.png" alt="QR Code" class="img-fluid" style="max-width: 150px;">
         </div>
 
@@ -922,12 +928,17 @@
       <div class="row align-items-center text-start">
         <div class="col-6">
           <h2 class="fw-bold mb-3">Master Your<br>Own Domain.</h2>
-          <a href="https://app.clientbase.pro" class="btn btn-light rounded-pill px-4 py-2 fw-semibold"
+          <!--<a href="https://app.clientbase.pro" class="btn btn-light rounded-pill px-4 py-2 fw-semibold"
             style="color: #891014;">
             Start today
-          </a>
+          </a>-->
         </div>
         <div class="col-6 text-end">
+          <span class="text-white small" style="font-family: 'poppins'; font-size: 10px;">Login to sign Up to</span>
+          <div class="col-4 d-flex justify-content-start">
+            <img src="assets/Logos/SVG/ClientBook Logo FullColour - White Text.svg" alt="Banner Preview"
+              class="img-fluid" style="max-width: 55px;">
+          </div>
           <img src="assets/img/clientbase_qr.png" alt="QR Code" class="img-fluid" style="max-width: 150px;">
         </div>
       </div>
