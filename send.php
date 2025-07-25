@@ -27,8 +27,8 @@ try {
     ];
 
     $mail->setFrom($_POST['email'], 'Website Mailer');
-    $mail->addAddress('enrique@clientbase.pro', 'Admin');
-    $mail->addAddress(' denise@clientbase.pro', 'Admin');
+    $mail->addAddress('liliana@clientbase.pro', 'Admin');
+    $mail->addAddress('denise@clientbase.pro', 'Admin');
 
     $mail->isHTML(true);
     $mail->Subject = 'New Inquiry Signup';
