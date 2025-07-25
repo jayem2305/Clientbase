@@ -128,7 +128,7 @@
   <nav class="navbar navbar-expand-lg bg-white fixed-top pt-3 pb-3 ">
     <div class="container" style="max-width: 80%">
       <a class="navbar-brand d-lg-none mx-auto" href="#">
-        <img src="assets/Logos/PNG/ClientBook Logo FullColour - Black Text.png" alt="Logo" height="40">
+        <img src="assets/Logos/SVG/clientbaselogo.svg" alt="Logo" height="40">
       </a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
         aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -864,7 +864,7 @@
     <div class="container-fluid" style="max-width: 100%;">
       <div class="row">
         <!-- Left: Heading & Button -->
-        <div class="col-md-6 text-start mb-3 mb-md-0">
+        <div class="col-md-10 text-start mb-3 mb-md-0">
           <h1 class="mb-0 fw-semibold">Master Your <br> Client Domain.</h1>
           <!-- <a href="https://app.clientbase.pro" class="btn btn-light rounded-pill mt-3 text-danger fw-semibold"
             style="color: #891014;">
@@ -873,13 +873,14 @@
         </div>
 
         <!-- Right: QR Image -->
-        <div class="col-md-6 text-end">
+        <div class="col-md-2 text-end">
           <span class="text-white small" style="font-family: 'poppins'; font-size: 10px;">Login to sign Up to</span>
-          <div class="col-12 d-flex justify-content-end">
+          <div class="col-12 d-flex justify-content-start">
             <img src="assets/Logos/SVG/ClientBook Logo FullColour - White Text.svg" alt="Banner Preview"
-              class="img-fluid" style="max-width: 100px;">
+              class="img-fluid" style="max-width: 110px;">
           </div>
-          <img src="assets/img/clientbase_qr.png" alt="QR Code" class="img-fluid" style="max-width: 150px;">
+          <img src="assets/img/clientbase_qr.png" alt="QR Code" class="img-fluid justify-content-end"
+            style="max-width: 150px;">
         </div>
 
         <div class="col-md-12">
