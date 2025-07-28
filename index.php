@@ -53,6 +53,7 @@
       word-spacing: normal;
       line-height: 1.6;
       overflow-x: hidden;
+      letter-spacing: 2px;
     }
 
     h1,
@@ -84,8 +85,6 @@
       background-position: 50% 30%;
       /* horizontally centered, 20% down from top */
     }
-
-
 
     .banner-content::before {
       content: "";
@@ -120,6 +119,38 @@
         flex-direction: row;
       }
     }
+
+    .hover-btn:hover {
+      background-color: #831317 !important;
+      color: #fff !important;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .hover-text:hover {
+      color: #0E171F !important;
+      font-weight: 1000;
+      text-shadow: 0 0 1px #0E171F;
+    }
+
+    .underline_decor {
+      background-image: url('assets/img/line.png');
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      background-size: contain;
+      padding-bottom: 5px;
+    }
+
+    @media (max-width: 767.98px) {
+      .custom-mobile-img {
+        max-width: 100% !important;
+        /* Fill container on mobile */
+      }
+    }
+
+    /* Default for larger screens */
+    .custom-mobile-img {
+      max-width: 90%;
+    }
   </style>
 
 </head>
@@ -139,7 +170,7 @@
           class="navbar-nav w-100 d-flex flex-column flex-lg-row justify-content-between align-items-center text-center">
           <div class="d-flex flex-column flex-lg-row gap-3 mb-3 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-dark fw-medium" href="#solutions">Solutions</a>
+              <a class="nav-link text-dark fw-medium hover-text" href="#solutions">Solutions</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link text-dark fw-medium" href="#contact_us">Contact us</a>
@@ -151,7 +182,7 @@
             </a>
           </li>
           <li class="nav-item mt-3 mt-lg-0">
-            <a href="#signup_form" class="btn btn-danger rounded-pill px-5 py-2 shadow-sm"
+            <a href="#signup_form" class="btn btn-danger rounded-pill px-5 py-2 shadow-sm hover-btn"
               style="background-color:#CC2127;">
               Sign up
             </a>
@@ -162,10 +193,10 @@
   </nav>
 
   <div class="col-lg-12 text-center py-5 pt-5 mt-5" style="padding-top: 120;">
-    <div style="max-width: 900px; margin: 0 auto; padding-left: 15px; padding-right: 15px; margin-top: 50px;">
-      <h1 class="fw-bold text-center display-3"
+    <div style="max-width: 1000px; margin: 0 auto; padding-left: 15px; padding-right: 15px; margin-top: 50px;">
+      <h1 class="fw-semibold text-center display-3"
         style=" font-family: 'Lexend', sans-serif;line-height: 110%;color: #0E171F;">
-        Transform Your<br> Entity Management Firm.
+        <span class="underline_decor">Transform </span>Your<br> Entity Management Firm.
       </h1>
 
       <h5 class="pb-5 text-center" style=" font-family: 'poppins' ;color: #0E171F;">
@@ -189,7 +220,7 @@
       </h2>
 
       <p class="mx-auto fw-medium mb-3 text-wrap"
-        style="font-family: 'poppins' ;color: #0E171F; max-width: 50%; font-size:15px;">
+        style="font-family: 'poppins' ;color: #0E171F; max-width: 65%; font-size:15px;">
         Join our CEO and leadership team for an exclusive deep-dive into both our revolutionary
         ClientBook platform and comprehensive IT Infrastructure & PDPA Compliance solutions.
       </p>
@@ -197,14 +228,14 @@
       <div class="mb-4 pt-4 pb-3 position-relative">
         <h6 class="fw-bold position-relative d-inline-block" style="font-family: 'poppins' ;color: #0E171F;">
           <!-- Positioned badge above "This" -->
-          <span class="position-absolute"
-            style="top: -1rem; left: -3rem; letter-spacing: 2px; transform: rotate(-10deg); font-size: 20px; font-family: 'Just Another Hand', sans-serif; color: #149345;">
+          <span class="fw-mefium position-absolute"
+            style="top: -1rem; left: -3rem; letter-spacing: 2px; transform: rotate(-20deg); font-size: 20px; font-family: 'Just Another Hand', sans-serif; color: #149345;">
             Save the date!
           </span>
           This Friday, July 25th <span class="mx-2">|</span> 11:00 AM
         </h6>
       </div>
-      <a href="https://shorturl.at/VVYDz" class="btn rounded-pill px-4 mb-2 fw-medium"
+      <a href="https://shorturl.at/VVYDz" class="btn rounded-pill px-4 mb-2 fw-medium hover-btn"
         style="background-color: #CC2127; color:#fff;">
         Join the webinar
       </a>
@@ -218,7 +249,7 @@
     <div class="row justify-content-center py-5">
       <!-- Main Text Block -->
       <div class="col-12 col-lg-10  mt-5 mb-4 text-center text-lg-start">
-        <h2 class="fw-bold display-6 text-center text-lg-start" style="line-height: 120%;">
+        <h2 class="fw-semibold display-6 text-center text-lg-start" style="line-height: 120%;">
           <img src="assets/img/light.png" alt="Banner Preview" class="img-fluid pb-5" style="max-width: 10%;">
           <br>
           From chaos to clarity.<br>
@@ -272,7 +303,8 @@
             <div class="row g-4 align-items-center">
               <!-- What We Deliver -->
               <div class="col-12">
-                <div class="row gy-4 gx-4">
+                <div class="row gy-2 gx-4">
+
                   <!-- Card 1 -->
                   <div class="col-lg-5 mb-4">
                     <div class="card h-100 p-4 rounded-4 border-0 shadow-sm"
@@ -321,8 +353,8 @@
                         <!-- Paragraph -->
                         <div class="row mt-3">
                           <div class="col-12">
-                            <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
-                              Conduct thorough evaluations of your current technology infrastructure to identify
+                            <p class="fw-light mb-0 text-end" style="font-size: 14px; font-family: 'Poppins';">
+                              Conduct through evaluations of your current technology infrastructure to identify
                               performance gaps,
                               security vulnerabilities, and compliance deficiencies with actionable improvement
                               recommendations.
@@ -405,7 +437,7 @@
                         </div>
                         <div class="row mt-3">
                           <div class="col-12">
-                            <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                            <p class="fw-light mb-0 text-end" style="font-size: 14px; font-family: 'Poppins';">
                               Provide ongoing monitoring and maintenance services to ensure your IT environment
                               continuously meets evolving regulatory standards and maintains optimal performance over
                               time.
@@ -418,17 +450,17 @@
                 </div>
               </div>
               <div class="col-12 text-center p-5">
-                <button class="btn btn-lg mb-3 p-5" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#cardSection" aria-expanded="false" aria-controls="cardSection"
+                <span class=" text-lg mb-3 p-5" data-bs-toggle="collapse" data-bs-target="#cardSection"
+                  aria-expanded="false" aria-controls="cardSection"
                   style="background-color: transparent; border: none;">
                   <i class="bi bi-chevron-down" style="font-size: 3rem;color: #891014;"></i>
-                </button>
-                <!-- Collapsible Cards Section -->
+                </span>
+                <!-- Collapsible Cards Section 
                 <div class="collapse" id="cardSection">
                   <div class="container py-5 d-flex justify-content-center">
-                    <!--  contents -->
+                     
                   </div>
-                </div>
+                </div>-->
               </div>
           </li>
           <li class="mb-3">
@@ -460,13 +492,18 @@
   <div class="col-lg-12 col-md-12 p-5">
     <div class="row g-4 justify-content-center align-items-center pb-5">
       <div class="col-auto">
-        <img src="assets/img/img_2.png" alt="Banner Preview" class="img-fluid pb-5" style="max-width: 90%;">
+        <img src="assets/img/img_2.png" alt="Banner Preview" class="img-fluid pb-5 mx-auto d-block custom-mobile-img">
       </div>
     </div>
-
   </div>
+
+
   <div class="container mobileview" style="font-family: 'Lexend', sans-serif; max-width: 70%;">
-    <div class="row g-4 justify-content-center align-items-center" style="margin-bottom: 700px;">
+    <!-- What images -->
+    <div class="row g-4 justify-content-center align-items-center mb-5 pb-5"
+      style="min-height: 110rem; margin-top: -25rem;">
+
+      <!-- <- Increase height here -->
       <div class="col-12 mb-5">
         <div class="position-relative central-wrapper" style="min-height: 520px; padding-bottom: 300px;">
           <div class="card p-4 rounded-4 border-0 shadow-sm mx-auto mb-5"
@@ -483,21 +520,21 @@
             </div>
           </div>
 
+          <!-- Background Image: fixed width/position -->
           <img src="assets/img/image_13.png" alt="Background Tickets"
             class="position-absolute img-fluid central-image-bg"
-            style="width: 70%; top: 120px; left: 40%; z-index: 1; opacity: 1;">
+            style="width: 70%; top: 120px; left: 40%; z-index: 2; ">
 
+          <!-- Foreground Image: fixed width/position -->
           <img src="assets/img/image_15.png" alt="Main Ticket View"
             class="position-absolute img-fluid rounded-3 shadow-lg central-image-fg"
-            style="width: 80%; top: 70%; right: 30%; z-index: 3;">
+            style="width: 80%; top: 70%; right: 30%; z-index: 2;">
         </div>
       </div>
-
     </div>
-
     <!-- What We Deliver -->
     <div class="col-12">
-      <div class="row gy-4 gx-4">
+      <div class="row gy-2 gx-4">
         <div class="col-lg-5 mb-4">
           <div class="card h-100 p-4 rounded-4 border-0 shadow-sm" style="background-color: rgba(137, 16, 20, 0.07);">
             <div class="card-body">
@@ -540,7 +577,7 @@
               <!-- Paragraph -->
               <div class="row mt-3">
                 <div class="col-12">
-                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                  <p class="fw-light mb-0 text-end" style="font-size: 14px; font-family: 'Poppins';">
                     Monitor and maintain adherence to Singaporean regulatory requirements with automated
                     tracking tools that help clients stay compliant and avoid legal issues.
                   </p>
@@ -579,7 +616,7 @@
             <div class="card-body">
               <div class="row align-items-center">
                 <div class="col-4 d-flex justify-content-start">
-                  <img src="assets/img/group.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
+                  <img src="assets/img/Group.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
                 </div>
                 <div class="col-8 text-end">
                   <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Comments and Notes
@@ -589,7 +626,7 @@
               </div>
               <div class="row mt-3">
                 <div class="col-12">
-                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                  <p class="fw-light mb-0 text-end" style="font-size: 14px; font-family: 'Poppins';">
                     Foster team collaboration through organized comment threads on any record, creating a
                     centralized communication history that makes tracking conversations and decisions
                     effortless.
@@ -641,7 +678,7 @@
               <!-- Paragraph -->
               <div class="row mt-3">
                 <div class="col-12">
-                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                  <p class="fw-light mb-0 text-end" style="font-size: 14px; font-family: 'Poppins';">
                     Accelerate document processing with secure electronic signatures that reduce costs, enhance
                     security, and improve the overall client experience.
                   </p>
@@ -683,14 +720,13 @@
                   <img src="assets/img/light.png" alt="Banner Preview" class="img-fluid" style="max-width: 55px;">
                 </div>
                 <div class="col-8 text-end">
-                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Real-time Insights
-                    and Analytics</h5>
+                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Real-time Insights and Analytics</h5>
                 </div>
 
               </div>
               <div class="row mt-3">
                 <div class="col-12">
-                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                  <p class="fw-light mb-0 text-end" style="font-size: 14px; font-family: 'Poppins';">
                     Transform your operational data into actionable insights with comprehensive departmental and
                     company-wide analytics that empower management decision-making.
                   </p>
@@ -733,15 +769,14 @@
                 </div>
                 <!-- Heading -->
                 <div class="col-9 text-end">
-                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Integrated
-                    WhatsApp Messaging</h5>
+                  <h5 class="fw-semibold mb-0" style="font-family: 'Poppins';">Integrated WhatsApp Messaging</h5>
                 </div>
               </div>
 
               <!-- Paragraph -->
               <div class="row mt-3">
                 <div class="col-12">
-                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                  <p class="fw-light mb-0 text-end" style="font-size: 14px; font-family: 'Poppins';">
                     Communicate with clients and team members directly through WhatsApp integration, keeping all
                     conversations organized within your client management system.
                   </p>
@@ -789,7 +824,7 @@
               </div>
               <div class="row mt-3">
                 <div class="col-12">
-                  <p class="fw-light mb-0 text-start" style="font-size: 14px; font-family: 'Poppins';">
+                  <p class="fw-light mb-0 text-end" style="font-size: 14px; font-family: 'Poppins';">
                     Create professional proposals quickly with real-time collaboration tools and integrated
                     sales pipeline tracking to streamline your business development process.
                   </p>
@@ -803,8 +838,11 @@
 
 
     <div class="row p-5">
-      <div class="col-lg-12 d-flex flex-column align-items-center justify-content-center text-center">
-        <img src="assets/img/chain.png" alt="Banner Preview" class="img-fluid mb-3" style="max-width: 55px;">
+      <div class="col-lg-12 d-flex flex-column align-items-center justify-content-center text-center p-5"
+        style="min-height: 350px;">
+        <img src="assets/img/chain.png" alt="Banner Preview" class="img-fluid mb-3" style="max-width: 55px; ">
+      </div>
+      <div class="col-lg-12 d-flex flex-column align-items-center justify-content-center text-center p-5">
         <h2 class="fw-bold">I'm ready to break free.<br>I want to know more.</h2>
       </div>
     </div>
@@ -831,10 +869,10 @@
                   </div>
                   <div class="form-floating">
                     <textarea class="form-control" id="inquiry" placeholder="Leave a comment here"
-                      id="floatingTextarea2" style="height: 100px"></textarea>
+                      id="floatingTextarea2" style="height: 200px"></textarea>
                     <label for="floatingTextarea2">Briefing of summary in Inquiry </label>
                   </div>
-                  <button type="submit" id="submitBtn" class="btn  w-100 rounded-pill mt-3"
+                  <button type="submit" id="submitBtn" class="btn w-100 rounded-pill mt-3 hover-btn"
                     style="background-color: #CC2127; color:#fff">Submit</button>
                 </div>
                 <div class="col-lg-4" style=" font-family: 'poppins';">
@@ -847,8 +885,7 @@
                   </p>
                   <br>
                   <p>
-                    <b>Let's start something great together!</b>
-
+                    <b class="fw-bold">Let's start something great together!</b>
                   </p>
                 </div>
               </div>
@@ -864,7 +901,7 @@
     <div class="container-fluid" style="max-width: 100%;">
       <div class="row">
         <!-- Left: Heading & Button -->
-        <div class="col-md-10 text-start mb-3 mb-md-0">
+        <div class="col-md-9 text-start mb-3 mb-md-0">
           <h1 class="mb-0 fw-semibold">Master Your <br> Client Domain.</h1>
           <!-- <a href="https://app.clientbase.pro" class="btn btn-light rounded-pill mt-3 text-danger fw-semibold"
             style="color: #891014;">
@@ -873,12 +910,14 @@
         </div>
 
         <!-- Right: QR Image -->
-        <div class="col-md-2 text-end">
-          <span class="text-white small" style="font-family: 'poppins'; font-size: 10px;">Login to sign Up to</span>
-          <div class="col-12 d-flex justify-content-start">
-            <img src="assets/Logos/SVG/ClientBook Logo FullColour - White Text.svg" alt="Banner Preview"
-              class="img-fluid" style="max-width: 110px;">
-          </div>
+        <div class="col-md-3 text-end">
+          <span class="text-white small" style="font-family: 'poppins'; font-size: 10px;"><i>Login</i> or <i>Sign Up to
+            </i>
+            <div class="col-12 d-flex justify-content-start pb-3">
+              <img src="assets/Logos/SVG/ClientBook Logo FullColour - White Text.svg" alt="Banner Preview"
+                class="img-fluid" style="max-width: 210px;">
+            </div>
+          </span>
           <img src="assets/img/clientbase_qr.png" alt="QR Code" class="img-fluid justify-content-end"
             style="max-width: 150px;">
         </div>
